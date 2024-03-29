@@ -10,7 +10,7 @@ import {User} from "./user.model";
 export class AuthService {
   error: string;
   api_url = 'https://identitytoolkit.googleapis.com/v1/accounts:'
-  api_key = 'AIzaSyDokRyxIb1lOYkJ3XZxOPdLe-pCpQl5Pqs'
+  api_key = ''
 
   user: BehaviorSubject<User> = new BehaviorSubject<User>(null);
 
